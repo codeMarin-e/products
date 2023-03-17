@@ -1,0 +1,32 @@
+{
+    "name": "marinar/products",
+    "description": "Products modulе",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marin",
+            "email": "marin@dev.nddesign.no"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Marinar\\Products\\": "src/"
+        }
+    },
+
+    "require": {
+        "marinar/marinar": "*",
+        "marinar/orderable": "*",
+        "marinar/attachments": "*",
+        "marinar/categories": "*",
+        "marinar/uriable": "*"
+    },
+    "extra": {
+        "marinar": {
+            "module": true,
+            "plugin": false,
+            "addon_to": false
+        }
+    }
+}

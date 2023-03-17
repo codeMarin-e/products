@@ -1,0 +1,2 @@
+<?php
+implode(DIRECTORY_SEPARATOR, [ base_path(), 'resources', 'views', 'components', 'admin', 'box_sidebar.blade.php']) => [ '{{--  @HOOK_ADMIN_SIDEBAR  --}}' ],

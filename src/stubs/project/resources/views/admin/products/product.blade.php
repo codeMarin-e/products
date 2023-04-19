@@ -176,5 +176,7 @@
                 </form>
             </div>
         </div>
+
+        {{-- @HOOK_ADDONS --}}
     </div>
 </x-admin.main>
